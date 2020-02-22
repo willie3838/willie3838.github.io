@@ -89,7 +89,7 @@
         display: inline-block;
         margin-bottom: 0;
         margin-top: 4.5em;
-        margin-left: 7em;
+        margin-left: 12vw;
         
     }
     
@@ -99,7 +99,7 @@
         font-weight: bold;
         margin-top: 0;
         margin-bottom: 0;
-        margin-left: 2em;
+        margin-left: 12vw;
     }
     
     #home h3{
@@ -107,7 +107,7 @@
         font-size: 70px;
         font-weight: bold;
         margin-top: 0;
-        margin-left: 2em;
+        margin-left: 12vw;
         margin-bottom: .5em;
     }
     
@@ -115,7 +115,7 @@
         color:rgb(136, 146, 176);
         font-size: 20px;
         margin-top: 0;
-        margin-left: 7em;
+        margin-left: 12vw;
     }
     .bounce {
         display: inline-block;
@@ -135,13 +135,13 @@
         color:rgb(204, 214, 246);
         font-size: 30px;
         font-weight: bold;
-        margin-left: 5em;
+        margin-left: 12vw;
     }
     
     #about-me p{
         color:rgb(136, 146, 176);
         font-size: 18px;
-        margin-left: 8em;
+        margin-left: 12vw;
         display:inline-block;
     }
     
@@ -154,7 +154,8 @@
     }
     
     #about-me ul{
-        margin-left: 4em;
+        margin-left: 9vw;
+        padding: 0;
         display: inline-block;
     }
     #about-me li p{
@@ -171,13 +172,14 @@
     }
     
     #about-me img{
-        width: 30%;
+        max-width: 359.73px;
         height: 300px;
         float: right;
         margin-top: 0;
-        margin-right: 7em;
+        margin-right: 12vw;
         filter: drop-shadow(2px 2px 5px  rgb(203, 95, 250));   
     }
+
     hr{
         width: 30%;
         border: 0.5px solid rgb(136, 146, 176);
@@ -192,14 +194,14 @@
         color:rgb(204, 214, 246);
         font-size: 30px;
         font-weight: bold;
-        margin-left: 5em;
+        margin-left: 12.5vw;
     }
     
     
     #positions li{
         display: block;
         padding: 10px;
-        margin-left: 7em;
+        margin-left: 9vw;
         border-left: 2px solid rgba(41, 61, 90, 0.99);
         transition: border-left 0.5s;
     }
@@ -226,7 +228,7 @@
     
     #desc-container{
         display: inline-block;
-        margin-right: 20em;
+        margin-left: 2vw;
     }
     
     #experience h2{
@@ -234,8 +236,9 @@
         color:rgb(204, 214, 246);
     }
     #experience h3{
-        font-weight: lighter;
-        margin-top: 0;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+        font-size: 13px;
+        margin-top: 15px;
         margin-bottom: 0;
     }
     
@@ -245,7 +248,8 @@
     }
     
     .active{
-        border-left: 2px solid rgb(203, 95, 250) !important;   
+        border-left: 2px solid rgb(203, 95, 250) !important;
+        background-color: rgba(203, 95, 250, 0.2);
     }
     
     .active a{
@@ -253,12 +257,15 @@
     }
     
     .desc{
-        font-size: 15px;
+        margin-top:3%;
+        font-size: 16px;
         margin-right: 0;
         padding: 0;
     }
     
     .pos-desc{
+        display: inline-flex;
+        flex-direction: column;
         position: absolute;
         top: 1714.5px;
         visibility: hidden;
@@ -282,11 +289,11 @@
         color:rgb(204, 214, 246);
         font-size: 30px;
         font-weight: bold;
-        margin-left: 5em;
+        margin-left: 12vw;
     }
     
     #project1{
-        margin-left: 9.5em;
+        margin-left: 12vw;
     }
     
     #project1 div{
@@ -337,7 +344,7 @@
     }
     
     #project2{
-        margin-left: 9.5em;
+        margin-left: 12vw;
     }
     
     #project2 div div{
@@ -396,6 +403,25 @@
         height: 1200px;
     }
     
+    
+    
+    #awards div{
+        background-color: #172a45;
+        display: inline-flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 30%;
+        height: 250px;
+        margin-top: 1em;
+        transition: bottom 2s;
+        transition: border 0.25s;
+    }
+    #awards div:hover{
+        position: relative;
+        bottom: 0.5em;
+        border: solid 1px rgb(203, 95, 250);
+    }
+    
     #awards h1{
         color:rgb(204, 214, 246);
         font-size: 30px;
@@ -422,29 +448,14 @@
         margin: 0;
         font-size: 17px;
     }
-    #awards div{
-        background-color: #172a45;
-        display: inline-block;
-        padding: 30px;
-        width: 30%;
-        height: 250px;
-        margin-top: 1em;
-        transition: bottom 2s;
-        transition: border 0.25s;
-    }
-    
-    #awards div:hover{
-        position: relative;
-        bottom: 0.5em;
-        border: solid 1px rgb(203, 95, 250);
-    }
-    
+
+
     .left{
-        margin-left: 10.5em;
+        margin-left: 15vw;
     }
     
     .right{
-        margin-left: 1em;
+        margin-left: 1%;
     }
     
     #awards i{
