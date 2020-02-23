@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>William Chan</title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- External CSS-->
+        <link rel="stylesheet" href = "css/style.css">
+         <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/cf625f67f9.js" crossorigin="anonymous"></script>
+         
+    </head>
+
+    <body onscroll="fadeNav()">
+        <nav>
+            <ul>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="mailto: williamchan@rogers.com">Contact</a></li>
+                <li><a id = "resume" href = "img/William_chan_2020.pdf" download target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+
+        <section id = "home">
+            <h1>Welcome, I am</h1>
+            <h2>William Chan.</h2>
+            <h3>I am a tech enthusiast.</h3>
+            <p>
+                I'm a first-year student at the University of Western Ontario<br>
+                pursuing a dual degree in Computer Science and Honours in<br>
+                Business Administration with the Ivey Business School.<br>
+                <label style = "color: rgb(203, 95, 250);">(Mobile site coming soon!)</label s>
+            </p>
+            <br>
+            <a href = "#about-me"><i class="fas fa-chevron-down fa-9x faa-falling animated bounce" style = "color: rgb(203, 95, 250);
+             margin-left: 12vw;"></i></a>
+        </section>
+
+        <section id = "about-me">
+            <h1>About me <hr></h1>
+            <div>
+                <p>
+                    Hello! My name is William, and I am a first year student at the 
+                    <label>University of Western Ontario.</label> I am currently exploring 
+                    my interests through participating in case competitions and 
+                    hackathons! I've recently acquired an interest in web development 
+                    and I have learned machine learning concepts on my own.
+                </p>
+                <p>
+                    At university, I am partaking in a variety of extracurriculars
+                    ranging from an artificial intelligence club to a dragon boat 
+                    team. Addtionally, I am working on projects to develop my skills 
+                    as a computer science student.
+                </p>
+                
+                <p>
+                    Here is a list of languages that I have learned over my experiences:
+                </p>
+    
+                <ul>
+                    <li><p>Java</p></li>
+                    <li><p>JavaScript</p></li>
+                    <li><p>C#</p></li>
+                    <br>
+                    <br>
+                    <li><p>Python</p></li>
+                    <li><p>MATLAB</p></li>
+                    <li><p>Microsoft Office</p></li>
+                </ul>
+            </div>
+            
+            <img src ="img/meJapan.jpg">
+            
+
+            
+
+        </section>
+
+        <section id = "experience">
+            <h1>Experience<hr></h1>
+            
+            <div id = "pos-container">
+                <ul id = "positions">
+                    <li onclick = "selectPosition(this)" class = "pos1 active"><a>Frostbite Esports</a></li>
+                    <li onclick = "selectPosition(this)" class = "pos2"><a>Western Founders Network</a></li>
+                    <li onclick = "selectPosition(this)" class = "pos3"><a>Western AI</a></li>
+                    <li onclick = "selectPosition(this)" class = "pos4"><a>Town of Richmond Hill</a></li>
+                    <li onclick = "selectPosition(this)" class = "pos5"><a>Scouts Canada</a></li>
+                </ul>
+            </div>
+            
+            <div id = "desc-container">
+                <div id = "pos1-desc" class = "pos-desc">
+                    <h2>Co-Founder</h2>
+                    <h3>Jan 2017 - Present</h3>
+                    
+                    <ul class = "desc">
+                        <li><p><label>•</label>  Organized nationwide gaming tournaments for over 1200 individuals
+                            <br> with the Toronto League Commune and High School Star League</p></li>
+                        <li><p><label>•</label>   Increased organization’s finances by over $1000 through securing sponsors 
+                            <br>and coordinating the sales of the organization’s merchandise</p></li>
+                        <li><p><label>•</label>   Created a philanthropic business plan integrating free-entry events to 
+                            <br>increase participation by over 100%</p></li>
+                    </ul>
+                </div>
+                <div id = "pos2-desc" class = "pos-desc">
+                    <h2>Director of Education</h2>
+                    <h3>Sept 2019 - Present</h3>
+                    
+                    <ul class = "desc">
+                        <li><p><label>•</label>  Collaborated with a team of individuals to prepare biweekly workshops <br>
+                            for hundreds of students on innovative topics such as computer vision, web development, 
+                            <br>and data analytics    
+                    </ul>
+                </div>
+                <div id = "pos3-desc" class = "pos-desc">
+                    <h2>Project Team Member</h2>
+                    <h3>Sept 2019 - Present</h3>
+                    
+                    <ul class = "desc">
+                        <li><p><label>•</label>  Created basic machine learning programs based on datasets taken from Kaggle, 
+                            <br>such as the iris and MNIST datasets</p></li>
+                        <li><p><label>•</label>   Collaborated with the team to create a convolutional neural network model<br>
+                             to diagnose skin diseases</p></li>
+                    </ul>
+                </div>
+                <div id = "pos4-desc" class = "pos-desc">
+                    <h2>Swim Instructor/Lifeguard</h2>
+                    <h3>Jul 2018 - Sept 2019</h3>
+                    <ul class = "desc">
+                        <li><p><label>•</label>   Organized and created cohesive 4-month-long lesson plans to support program structures</p></li>
+                        <li><p><label>•</label>   Taught over 50 children from ages 12-15 essential swimming skills through effectively 
+                            <br> communicating comprehensive swimming drills</p></li>
+                        <li><p><label>•</label>   •	Professionally communicated with parents to recognize the needs of their children 
+                            <br> and satisfy their needs</p></li>
+                    </ul>
+                </div>
+                <div id = "pos5-desc" class = "pos-desc">
+                    <h2>Assistant Leader</h2>
+                    <h3>September 2015 - June 2017</h3>
+                    
+                    <ul class = "desc">
+                        <li><p><label>•</label>   Created weekly lesson plans entailing survival skills and STEM topics for 
+                            <br> individuals from ages 11-14</p></li>
+                        <li><p><label>•</label>   Collaborated with supervisors and other assistant leaders to assist our
+                            <br> students in winning the regional competition with over 200 participants</p></li>
+                        <li><p><label>•</label>   Organized events such as seasonal camps, Rememberance Day assemblies
+                        <br> and fundraisers such as Apple Day</p></li>
+                    </ul>
+                </div>
+            </div>
+           
+        </section>
+
+        <section id = "projects">
+            <h1>Projects<hr></h1>
+            <br>
+            <div id = "project1">
+                <img src = "img/uplift.png">
+                <div>
+                    <h2>StarterHacks</h2>
+                    <h3>Uplift</h3>
+                    <div>
+                        <p>
+                            A web application that performs a sentiment analysis on<br> 
+                            the user's inputon their average hours of sleep, number <br>
+                            of meals eaten, and average hours of exercise. In the end<br>
+                            it provides feedback on how to improve their lifestyle.
+                        </p>
+                    </div>
+                    
+                    <label>Chart.js</label>
+                    <a href = "https://github.com/willie3838/uplift" target = "_blank"><i class="fab fa-github fa-2x" style = "margin-left: 11em;"></i></a>
+                </div>
+               
+            </div>
+            <br><br><br><br><br>
+            <div id = "project2">
+                <div>
+                    <h2>Personal Project</h2>
+                    <h3>Swimmer's Inspiration</h3>
+                    <div>
+                        <p>
+                            A web application that computes a swimmer's <br>
+                            optimal stroke, best event, and race type <br>
+                            (sprinter/long-distance) based on the swimmer<br>
+                             database from swimmingrankings.net.
+                        </p>
+                    </div>
+                    
+                    <label>Chart.js</label>
+                    <label>Booststrap4</label>
+                    <a href = "https://github.com/willie3838/swim-insp" target = "_blank"><i class="fab fa-github fa-2x" style = "margin-left: 0.5em;"></i></a>
+                </div>
+                <img src = "img/swimmer.png">
+                 
+            </div>
+            
+        </section>
+ 
+        <section id = "awards">
+            <h1>Awards</h1>
+            <section>
+                <div class = "left">
+                    <i class="fas fa-trophy fa-2x"></i>
+                    <h2>Pan American Torchbearer</h2>
+                    <h3>2015</h3>
+                    <p>
+                        Awarded based on my leadership within the community and 
+                        my perseverance to maintain a balance between academics and 
+                        athletics.
+                    </p>
+                </div>
+                <div class = "right">
+                    <i class="fas fa-swimmer fa-2x"></i>
+                    <h2>Team Canada</h2>
+                    <h3>2019</h3>
+                    <p>
+                        Qualified for the developmental team portion of Team Canada based 
+                        on my performance at the Canadian Lifesaving Championships.
+                    </p>
+                </div>
+                <div class = "left">
+                    <i class="fas fa-trophy fa-2x"></i>
+                    <h2>HOSA International Qualifier</h2>
+                    <h3>2017</h3>
+                    <p>
+                        Placed second overall in the Behavioral Health event, leading me to 
+                        qualify for internationals in Texas.
+                    </p>
+                </div>
+                <div class = "right">
+                    <i class="fas fa-book fa-2x"></i>
+                    <h2>Horatio Alger Canadian Scholar</h2>
+                    <h3>2019</h3>
+                    <p>
+                        Awarded based on my academic merit and my perseverance when
+                        overcoming adversity.                            
+                        <br><br>
+                    </p>
+                </div>
+                <div class = "left">
+                    <i class="fas fa-medal fa-2x"></i>
+                    <h2>Duke of Edinburgh Bronze</h2>
+                    <h3>2016</h3>
+                    <p>
+                        Awarded based on my commitment in volunteering
+                        to the community, passion for learning new skills, and
+                        desire to achieve a physically healthy lifestyle.
+                    </p>
+                </div>
+                <div class = "right">
+                    <i class="fas fa-swimmer fa-2x"></i>
+                    <h2>Top 25 in Canada</h2>
+                    <h3>2017</h3>
+                    <p>
+                       Awarded based on my placement in the 200m medley relay 25m
+                       butterfly leg. I placed 21st in Canada for my age group with a time
+                       of 27.41s.<br><br>
+                    </p>
+                </div>
+            </section>
+            
+
+        </section>
+
+       
+        <script src = "js/script.js"></script>
+    </body>
+</html>
