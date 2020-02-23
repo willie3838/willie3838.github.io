@@ -50,6 +50,7 @@
         margin: 0;
         float:right;
         padding: 25px 14px;
+        margin-right: 2vw;
       }
     
      
@@ -162,7 +163,7 @@
         display: inline;
         border: 0.5px solid rgb(203, 95, 250);
         padding: 4px 20px 4px 20px;
-        margin-left: 2em;
+        margin-left: 2.75vw;
         color:  rgb(203, 95, 250);
         transition: background-color 0.5s;
     }
@@ -283,7 +284,7 @@
         font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     }
     #projects{
-        height: 900px;
+        height: 1200px;
     }
     #projects h1{
         color:rgb(204, 214, 246);
